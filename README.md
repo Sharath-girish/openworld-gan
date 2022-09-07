@@ -23,7 +23,7 @@ data/train/real_celeba/xxx.png
 data/train/attgan_celeba/xxy.png
 
 data/eval/real_celeba/yyy.png
-data/train/began_celeba/yyy.png
+data/eval/began_celeba/yyy.png
 ```
 
 ## Example train commands
