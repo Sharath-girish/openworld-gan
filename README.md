@@ -27,7 +27,7 @@ data/train/began_celeba/yyy.png
 ```
 
 ## Example train commands
-Hyperparameters are defined in yaml files in the [configs](configs/) folder. An example run command with the default config would look like:
+Hyperparameters are defined in yaml files in the [cfgs](cfgs/) folder. An example run command with the default config would look like:
 ```
 python main.py --config cfgs/config.yaml
 ```
