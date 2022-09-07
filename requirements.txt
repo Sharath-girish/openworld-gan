@@ -1,0 +1,7 @@
+torch==1.9.1 
+torchvision==0.10.1 
+matplotlib==3.3.4
+scikit-learn 
+thundersvm 
+opencv-python 
+pyyaml

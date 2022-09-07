@@ -1,0 +1,13 @@
+# Define set of classes which are part of train and eval set
+
+Set1:
+  train_classes: ['real_celeba','stargan_celeba','attgan_celeba','real_hq','progan_hq','stylegan_hq','real_imagenet',
+                  'biggan_imagenet','s3gan_imagenet','real_lsun','progan_lsun','mmdgan_lsun'] 
+  eval_classes: ['real_celeba','stargan_celeba','attgan_celeba','began_celeba','progan_celeba','sngan_celeba','cramergan_celeba',
+                 'mmdgan_celeba','real_hq','progan_hq','stylegan_hq','resnet19_hq','real_imagenet','biggan_imagenet',
+                 's3gan_imagenet','sngan_imagenet','real_lsun','progan_lsun','mmdgan_lsun','sngan_lsun'] 
+
+
+Set2:
+  train_classes: ['real_celeba','stargan_celeba'] 
+  eval_classes: ['real_celeba','stargan_celeba','progan_celeba'] 
