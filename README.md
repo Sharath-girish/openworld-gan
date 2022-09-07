@@ -11,7 +11,7 @@ PyTorch implementation of [Towards Discovery and Attribution of Open-world GAN G
 ```
 
 ## Installation
-Create new virtualenv/conda environment and run the following command:
+Create new virtualenv/conda environment. The project uses the [ThunderSVM](https://github.com/Xtra-Computing/thundersvm) library which requires CUDA 9.0 if installed via pip. To install all the required libraries, run the following command:
 ```
 pip install -r requirements.txt
 ```
