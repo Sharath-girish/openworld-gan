@@ -50,11 +50,6 @@ def main(conf):
                         print(f'Iteration {step} stage {stage_name}'+\
                                   f' completed at {stage_save_path}')
                         continue
-                        # if not (stage_name=='classifier' and \
-                        #     not os.path.exists(os.path.join(stage_save_path,'model.pth'))):
-                        #     print(f'Iteration {step} stage {stage_name}'+\
-                        #           f' completed at {stage_save_path}')
-                        #     continue
             # Clear contents of stage path if rerunning stage, except if it is a classifier
             # training stage, in which case it resumes from the most recent checkpoint saved.
             if not (stage_name in ['classifier','refine'] and conf_common['resume'] \
@@ -81,13 +76,3 @@ def main(conf):
 if __name__ == "__main__":
     conf = Config(use_args=True)
     main(conf)
-
-
-# TODO:
-# 1) Conf file save format 
-# 2) Delete execution time prints within stages
-# 3) Check class lengths order in step 2 training
-# 4) Check cluster labels are always continous
-# 5) Assert cluster labels continuous in kmeans
-
-# torch==1.9.1 torchvision==0.10.1 scikit-learn thundersvm opencv-python pyyaml
